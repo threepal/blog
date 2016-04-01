@@ -1,0 +1,27 @@
+                    </div>
+                    <div class="ui attached tab" data-tab="second">
+                        <p><a href='https://threepal.com' target='_blank'>Threepal official site</a></p>
+                        <p><a href='https://threepal.com/mind_test' target='_blank'>Threepal mind test</a></p>
+                        <p><a href='https://threepal.com/photos' target='_blank'>Threepal member albums</a></p>
+                    </div>
+                    <footer class="footer">
+                        <p>
+                            <span class="line">
+                                Powered by
+                                <a href="https://github.com/aborn/eeb" title="eeb" rel="help" target="_blank">eeb, <%= config.visits %> visits.
+                            </span>
+                        </p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="http://oss.maxcdn.com/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://oss.maxcdn.com/semantic-ui/2.1.6/semantic.min.js"></script>
+<script src="http://oss.maxcdn.com/highlight.js/9.0.0/highlight.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

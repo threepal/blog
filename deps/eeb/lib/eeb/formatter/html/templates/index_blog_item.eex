@@ -1,0 +1,16 @@
+<li class="item">
+    <div class="list-top">
+        <i class="wait icon"></i>
+        <span class="time" data-shared-at="<%= blog.time %>"></span>
+    </div>
+    <h4 class="title"><a href="<%= blog.url %>"><%= blog.title %></a></h4>
+    <div class="list-footer">
+        <a target="_blank" href="<%= blog.url %>">
+          Read <%= blog.hits %>
+        </a>
+        <a target="_blank" href="<%= blog.url %>">
+          · Comments <%= blog.comments %>
+        </a>
+        <span> · Like <%= blog.like %></span>
+    </div>
+</li>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="eeb v0.0.1">
+    <title>Threepal Social Match blog</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="http://oss.maxcdn.com/semantic-ui/2.1.6/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="http://oss.maxcdn.com/highlight.js/9.0.0/styles/github.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/base.css">
+</head>
+
+<body>
+
+<div class="ui stackable two column grid container">
+    <div class="row">
+        <!-- Tab Content !-->
+        <div class="three wide column" style="border-right: 1px solid #d9d9d9;min-height: 100vh">
+            <div style="margin-top: 70px"></div>
+
+            <div class="avatar" style="border-radius: 50%;height: 120px;width: 120px">
+                <img thumbnail="90x90" quality="100" src="<%= config.blog_avatar %>" alt="02d576b98e6a">
+            </div>
+            <div class="basic-info">
+                <h2><a href="index.html"><%= config.blog_name %></a></h2>
+                <p><%= config.blog_slogan %></p>
+                <div class="row">
+                    <a href="https://threepal.com" target="_blank">Official site</a><br/>
+                    <a href="https://threepal.com/mind_test" target="_blank">Mind Test</a><br/>
+                    <a href="https://threepal.com/channels" target="_blank">Channels</a><br/>
+                    <a href="https://threepal.com/photos" target="_blank">Member Albums</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ten wide column">
+            <div class="ui container text" style="margin-top: 25px;">
+                <div class="ui text container">
+                     <div class="ui pointing secondary menu">
+                        <a class="active item" data-tab="first">Latest posts</a>
+                        <a class="item" data-tab="second">Links</a>
+                    </div>
+                    <div class="ui attached active tab " data-tab="first">
+                        <ul class="blog-list ui list">
